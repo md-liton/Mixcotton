@@ -3,7 +3,7 @@ import logo from '../../assets/Logo.png'
 
 const Navbar = () => {
   return (
-    <nav className='py-[15px]'>
+    <nav className='py-[25px]'>
         <div className="container">
             <div className="nav_main md:flex md:justify-center md:items-center">
                 <div className="logo md:w-[20%]">
