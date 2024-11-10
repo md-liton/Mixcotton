@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ad1 from '../../assets/Ad1.jpg'
 import ad2 from '../../assets/Ad2.png'
 import ad3 from '../../assets/Ad3.png'
 
 const Advertise = () => {
+  
   return (
     <section className='py-[80px]'>
         <div className="container">

@@ -4,6 +4,7 @@ import Header from '../Header/Header'
 import Banner from '../Banner/Banner'
 import Policy from '../Policy/Policy'
 import Advertise from '../Advertise/Advertise'
+import Newproduct from '../Newproduct/Newproduct'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <Banner/>
     <Policy/>
     <Advertise/>
+    <Newproduct/>
     </>
   )
 }
