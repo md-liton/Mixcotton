@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-slide > div{
+    margin: 0 20px;
+}
+
 .new_btn{
     opacity: 0;
     visibility: hidden;
