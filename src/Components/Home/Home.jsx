@@ -5,6 +5,7 @@ import Banner from '../Banner/Banner'
 import Policy from '../Policy/Policy'
 import Advertise from '../Advertise/Advertise'
 import Newproduct from '../Newproduct/Newproduct'
+import Special from '../SpecialOffer/Special'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
     <Policy/>
     <Advertise/>
     <Newproduct/>
+    <Special/>
     </>
   )
 }
