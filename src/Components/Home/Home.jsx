@@ -7,18 +7,27 @@ import Advertise from '../Advertise/Advertise'
 import Newproduct from '../Newproduct/Newproduct'
 import Special from '../SpecialOffer/Special'
 import Footer from '../Footer/Footer'
+import { Outlet, useLocation } from 'react-router-dom'
 
 const Home = () => {
+  const location = useLocation()
   return (
     <>
-    <Navbar/>
-    <Header/>
-    <Banner/>
-    <Policy/>
-    <Advertise/>
-    <Newproduct/>
-    <Special/>
-    <Footer/>
+      <Navbar />
+      <Header />
+      {
+        location.pathname == '/' &&
+          <div>
+            <Banner />
+            <Policy />
+            <Advertise />
+            <Newproduct />
+            <Special />
+          </div>
+      }
+      <Outlet>
+      </Outlet>
+      <Footer />
     </>
   )
 }
