@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaStar } from "react-icons/fa";
+import AddedReview from '../AddedReview/AddedReview';
 
 
 const ProductDetails = () => {
@@ -112,6 +113,9 @@ const ProductDetails = () => {
 
                         </div>
                     </div>
+                </div>
+                <div className='py-[30px]'>
+            <AddedReview/>
                 </div>
             </div>
         </section>
