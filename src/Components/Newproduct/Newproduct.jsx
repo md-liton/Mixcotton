@@ -50,7 +50,6 @@ const Newproduct = () => {
       <section className='py-[50px] bg-[#F5F5F3]'>
           <div className="container">
               <div className="new_main ">
-
                   <div className="slider-container">
                       <Slider {...settings}>
                           <div>

@@ -3,6 +3,7 @@ import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { FaSearch } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,10 +14,10 @@ const Header = () => {
     <header className='bg-[#F5F5F3] py-[25px]'>
         <div className="container">
             <div className="header_main md:flex md:justify-between md:items-center">
-                <div className='md:w-[20%] flex items-center gap-[10px] md:text-[18px] font-dm text-primary cursor-pointer '>
+                <Link to='/products' className='md:w-[20%] flex items-center gap-[10px] md:text-[18px] font-dm text-primary cursor-pointer '>
                 <HiOutlineMenuAlt2 />
                 <p>Shop by Category</p>
-                </div>
+                </Link>
                 <div className='md:w-[60%] md:flex md:justify-center md:items-center relative'>
                     <input type="search" placeholder='Search Product' className='p-[10px] rounded-lg md:w-[80%] focus:outline-none' />
                     <FaSearch className='absolute top-[15px] right-[12%] cursor-pointer'/>
