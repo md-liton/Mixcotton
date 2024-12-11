@@ -19,7 +19,7 @@ const ProductDetails = () => {
                             </div>
                         </div>
                         <div className=''>
-                            <h5 className='font-dm font-semibold text-[18px] text-primary'>Products Name</h5>
+                            <h5 className='font-dm font-bold text-[25px] text-primary'>Products Name</h5>
                             <p className='text-[18px] font-normal text-secondary  text-justify' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ullam ipsum voluptatum repellat mollitia modi tempore animi velit, rerum, beatae accusamus quibusdam voluptatibus maxime, expedita aliquam! Earum debitis maxime optio a odio voluptate voluptatum neque alias et, recusandae ipsam aspernatur commodi. Neque provident ipsa accusamus, mollitia adipisci repellendus consequuntur suscipit ad, alias placeat dolor, asperiores id ipsum laborum est quod? Nulla cum, nesciunt suscipit sint distinctio doloremque necessitatibus laboriosam omnis aut labore nam modi repudiandae earum odit porro quia rem sit vitae, expedita praesentium quis ut maxime. Saepe qui placeat quaerat officiis distinctio sequi rerum eligendi dolor velit, unde deserunt!</p>
                             <div className='review text-yellow-500 flex gap-[3px] items-center py-[10px]'>
                                 <FaStar />
