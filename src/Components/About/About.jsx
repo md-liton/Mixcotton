@@ -12,7 +12,7 @@ const About = () => {
             <img src={brand} alt="" className='w-[400px]'/>
             <img src={stor} alt="" className='w-[400px]'/>
           </div>
-          <h2 className='font-dm font-normal text-[40px] text-primary py-[20px]'>Orebi is one of the world’s leading ecommerce brands and is internationally recognized for celebrating the essence of classic Worldwide cool looking style.</h2>
+          <h2 className='font-dm font-normal text-[40px] text-primary py-[20px] text-center'>Orebi is one of the world’s leading ecommerce brands and is internationally recognized for celebrating the essence of classic Worldwide cool looking style.</h2>
           <div className='flex justify-between gap-[40px] py-[20px]'>
             <div>
               <h4  className='font-bold text-[20px] text-primary py-[20px]'>Our Vision</h4>
