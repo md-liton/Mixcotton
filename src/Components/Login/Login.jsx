@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -28,7 +29,9 @@ const Login = () => {
         <h5 className='font-dm font-bold text-[40px] text-primary py-[20px]'>New Customer</h5>
         <p className='md:w-[650px] text-[#6D6D6D] text-[16px] text-normal'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
         <div className='py-[20px]'>
+        <Link to='/registration'>
         <button className='py-[10px] px-[50px] bg-transparent  bg-primary hover:bg-primary hover:border hove:border-[1px] hover:border-primary  easy-in duration-300 border border-[1px] border-primary text-primary hover:text-white' >Sign Up</button>
+        </Link>
         </div>
         </div>
         {/* New customer part end */}
