@@ -23,10 +23,12 @@ const Header = () => {
                     <FaSearch className='absolute top-[15px] right-[12%] cursor-pointer'/>
                 </div>
                 <div className='md:w-[20%] flex justify-end items-center gap-[30px]'>                    
+                <Link to='/login'>
                 <div className='flex justify-center items-center gap-[5px] cursor-pointer'>
                 <IoMdContact  className='text-[30px]'/>
                 <p className='text-[14px]'> Sign In</p>
                 </div>
+                </Link>
                 <div className=' cursor-pointer relative'>
                 <FaCartShopping   className='text-[25px] '/>
                 <div className='bg-secondary rounded-full flex justify-center items-center text-white absolute top-[-10px] right-[-10px] w-[20px] h-[20px]'>0</div>

@@ -13,6 +13,7 @@ import About from './Components/About/About';
 import Contacts from './Components/Contacts/Contacts';
 import Journal from './Components/Journal/Journal';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
+import Login from './Components/Login/Login';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
     <Route path="/journal"  element={<Journal/>} />
     <Route path="/products"  element={<Product/>} />
     <Route path="/products/details"  element={<ProductDetails/>} />
+    <Route path="/login"  element={<Login/>} />
     <Route path="*"  element={<Error/>} />
     </Route>
   )
