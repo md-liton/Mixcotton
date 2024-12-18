@@ -52,6 +52,7 @@ const ProductDetails = () => {
                                 </div>
                                 <div>
                                     <select className='border border-2 focus:outline-none'>
+                                        <option>SIZE</option>
                                         <option>S</option>
                                         <option>M</option>
                                         <option>LG</option>
