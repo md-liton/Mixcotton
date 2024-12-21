@@ -60,12 +60,20 @@ const Cart = () => {
                   <div className='price flex justify-end'>
                       <div className='w-1/3 py-[30px]'>
                           <h5 className='font-bold text-[16px] text-primary text-end px-[10px]'>Cart totals</h5>
-                          <div className='border-2 border-[#F5F5F3] p-[10px] flex items-center justify-between mt-[15px]'>
+                          <div className='border-x-2 border-t-2 border-[#F5F5F3] p-[10px] flex items-center justify-between mt-[15px]'>
                               <div className='w-1/2 border-r-2 border-[#F5F5F3]'>
                                   <h5 className='font-bold text-[14px] text-primary px-[10px]'>Subtotal</h5>
                               </div>
                               <div className='w-1/2'>
                                   <h5 className='text-[#6D6D6D] text-[14px] px-[10px]'>$44.00</h5>
+                              </div>
+                          </div>
+                          <div className='border-2 border-[#F5F5F3] p-[10px] flex items-center justify-between '>
+                              <div className='w-1/2 border-r-2 border-[#F5F5F3]'>
+                                  <h5 className='font-bold text-[14px] text-primary px-[10px]'>Delivery Charge</h5>
+                              </div>
+                              <div className='w-1/2'>
+                                  <h5 className='text-[#6D6D6D] text-[14px] px-[10px]'>$10.00</h5>
                               </div>
                           </div>
                           <div className='border-x-2 border-[#F5F5F3] p-[10px] flex items-center justify-between '>
@@ -81,7 +89,7 @@ const Cart = () => {
                                   <h5 className='font-bold text-[14px] text-primary px-[10px]'>Total</h5>
                               </div>
                               <div className='w-1/2'>
-                                  <h5 className='text-[#6D6D6D] text-[14px] px-[10px]'>$40.00</h5>
+                                  <h5 className='text-[#6D6D6D] text-[14px] px-[10px]'>$50.00</h5>
                               </div>
                           </div>
                           <div className=' py-[20px] flex justify-end '>
