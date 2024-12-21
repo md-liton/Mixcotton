@@ -17,6 +17,7 @@ import Login from './Components/Login/Login';
 import Registration from './Components/Registration/Registration';
 import MyAccount from './Components/MyAccount/MyAccount';
 import Cart from './Components/Cart/Cart';
+import Checkout from './Components/Checkout/Checkout';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -31,6 +32,7 @@ const router = createBrowserRouter(
     <Route path="/registration"  element={<Registration/>} />
     <Route path="/account"  element={<MyAccount/>} />
     <Route path="/cart"  element={<Cart/>} />
+    <Route path="/checkout"  element={<Checkout/>} />
     <Route path="*"  element={<Error/>} />
     </Route>
   )
