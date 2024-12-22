@@ -30,8 +30,10 @@ const Header = () => {
                 </div>
                 </Link>
                 <div className=' cursor-pointer relative'>
+                <Link to='/cart'>
                 <FaCartShopping   className='text-[25px] '/>
                 <div className='bg-secondary rounded-full flex justify-center items-center text-white absolute top-[-10px] right-[-10px] w-[20px] h-[20px]'>0</div>
+                </Link>
                 </div>
                 </div>
             </div>

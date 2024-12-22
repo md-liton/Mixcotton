@@ -8,7 +8,9 @@ const Navbar = () => {
         <div className="container">
             <div className="nav_main md:flex md:justify-center md:items-center">
                 <div className="logo md:w-[20%]">
+                    <Link>
                     <img src={logo} alt="logo" />
+                    </Link>
                 </div>
                 <div className="menu md:w-[80%]">
                     <ul className='md:text-[18px] font-dm md:flex md:justify-center md:items-center gap-[30px]'>
@@ -23,9 +25,6 @@ const Navbar = () => {
                         </li>
                         <li className=' text-secondary hover:text-primary font-bold duration-300 cursor-pointer'>
                             <Link to='/contacts'>Contacts</Link>
-                        </li>
-                        <li className=' text-secondary hover:text-primary font-bold duration-300 cursor-pointer'>
-                            <Link to='journal'>Journal</Link>
                         </li>
                     </ul>
                 </div>

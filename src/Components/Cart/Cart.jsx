@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoClose } from "react-icons/io5";
 import cart from '../../assets/cart.png'
+import { Link } from 'react-router-dom';
 
 
 const Cart = () => {
@@ -105,7 +106,9 @@ const Cart = () => {
                               </div>
                           </div>
                           <div className=' py-[20px] flex justify-end '>
+                              <Link to='/checkout'>
                               <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary text-white' >Proceed to Checkout</button>
+                              </Link>
                           </div>
                       </div>
                   </div>

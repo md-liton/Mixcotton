@@ -11,7 +11,6 @@ import Error from './Components/Error/Error';
 import Shop from './Components/Shop/Shop';
 import About from './Components/About/About';
 import Contacts from './Components/Contacts/Contacts';
-import Journal from './Components/Journal/Journal';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
 import Login from './Components/Login/Login';
 import Registration from './Components/Registration/Registration';
@@ -25,7 +24,6 @@ const router = createBrowserRouter(
     <Route path="/shop"  element={<Shop/>} />
     <Route path="/about"  element={<About/>} />
     <Route path="/contacts"  element={<Contacts/>} />
-    <Route path="/journal"  element={<Journal/>} />
     <Route path="/products"  element={<Product/>} />
     <Route path="/products/details"  element={<ProductDetails/>} />
     <Route path="/login"  element={<Login/>} />
