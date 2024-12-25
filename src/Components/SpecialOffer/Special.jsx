@@ -15,7 +15,7 @@ const Special = () => {
                           <div className='new_btn absolute bottom-0 left-0 w-[370px] ease-in duration-300  bg-[#F5F5F3]  text-white font-normal font-dm rounded-lg'>
                               <div className=' py-[40px] px-[20px] flex justify-center items-center gap-[20px] '>
                                   <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>Add to Cart</button>
-                                  <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>View Details</button>
+                                  <button className='py-[10px] px-[30px] text-primary  hover:bg-primary hover:border hove:border-[1px] hover:border-primary hover:text-white  easy-in duration-300 border border-[1px] border-primary'>View Details</button>
                               </div>
                           </div>
                       </div>
@@ -32,7 +32,7 @@ const Special = () => {
                           <div className='new_btn absolute bottom-0 left-0 w-[370px] ease-in duration-300  bg-[#F5F5F3]  text-white font-normal font-dm rounded-lg'>
                               <div className=' py-[40px] px-[20px] flex justify-center items-center gap-[20px] '>
                                   <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>Add to Cart</button>
-                                  <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>View Details</button>
+                                  <button className='py-[10px] px-[30px] text-primary  hover:bg-primary hover:border hove:border-[1px] hover:border-primary hover:text-white  easy-in duration-300 border border-[1px] border-primary'>View Details</button>
                               </div>
                           </div>
                       </div>
@@ -49,7 +49,7 @@ const Special = () => {
                           <div className='new_btn absolute bottom-0 left-0 w-[370px] ease-in duration-300  bg-[#F5F5F3]  text-white font-normal font-dm rounded-lg'>
                               <div className=' py-[40px] px-[20px] flex justify-center items-center gap-[20px] '>
                                   <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>Add to Cart</button>
-                                  <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>View Details</button>
+                                  <button className='py-[10px] px-[30px] text-primary  hover:bg-primary hover:border hove:border-[1px] hover:border-primary hover:text-white  easy-in duration-300 border border-[1px] border-primary'>View Details</button>
                               </div>
                           </div>
                       </div>
@@ -66,7 +66,7 @@ const Special = () => {
                           <div className='new_btn absolute bottom-0 left-0 w-[370px] ease-in duration-300  bg-[#F5F5F3]  text-white font-normal font-dm rounded-lg'>
                               <div className=' py-[40px] px-[20px] flex justify-center items-center gap-[20px] '>
                                   <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>Add to Cart</button>
-                                  <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>View Details</button>
+                                  <button className='py-[10px] px-[30px] text-primary  hover:bg-primary hover:border hove:border-[1px] hover:border-primary hover:text-white  easy-in duration-300 border border-[1px] border-primary'>View Details</button>
                               </div>
                           </div>
                       </div>
@@ -83,7 +83,7 @@ const Special = () => {
                           <div className='new_btn absolute bottom-0 left-0 w-[370px] ease-in duration-300  bg-[#F5F5F3]  text-white font-normal font-dm rounded-lg'>
                               <div className=' py-[40px] px-[20px] flex justify-center items-center gap-[20px] '>
                                   <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>Add to Cart</button>
-                                  <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>View Details</button>
+                                  <button className='py-[10px] px-[30px] text-primary  hover:bg-primary hover:border hove:border-[1px] hover:border-primary hover:text-white  easy-in duration-300 border border-[1px] border-primary'>View Details</button>
                               </div>
                           </div>
                       </div>
@@ -100,7 +100,7 @@ const Special = () => {
                           <div className='new_btn absolute bottom-0 left-0 w-[370px] ease-in duration-300  bg-[#F5F5F3]  text-white font-normal font-dm rounded-lg'>
                               <div className=' py-[40px] px-[20px] flex justify-center items-center gap-[20px] '>
                                   <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>Add to Cart</button>
-                                  <button className='py-[10px] px-[30px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary'>View Details</button>
+                                  <button className='py-[10px] px-[30px] text-primary  hover:bg-primary hover:border hove:border-[1px] hover:border-primary hover:text-white  easy-in duration-300 border border-[1px] border-primary'>View Details</button>
                               </div>
                           </div>
                       </div>
