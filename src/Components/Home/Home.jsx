@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../Navbar/Navbar'
 import Header from '../Header/Header'
 import Banner from '../Banner/Banner'
@@ -11,6 +11,11 @@ import { Outlet, useLocation } from 'react-router-dom'
 
 const Home = () => {
   const location = useLocation()
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, [pathname]);
   return (
     <>
       <Navbar />

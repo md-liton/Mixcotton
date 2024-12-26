@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Link} from 'react-router-dom';
 
 const Registration = () => {
+
+  
+
   return (
     <section className='py-[50px]'>
       <div className="container">
@@ -89,6 +93,9 @@ const Registration = () => {
         </div>
         <div className='py-[20px]'>
         <button className='py-[10px] px-[50px]  bg-primary hover:bg-transparent hover:border hove:border-[1px] hover:border-primary hover:text-primary easy-in duration-300 border border-[1px] border-primary text-white' >Sign up</button>
+        <Link to='/login'>
+        <button className='py-[10px] px-[50px] bg-transparent  bg-primary hover:bg-primary hover:border hove:border-[1px] hover:border-primary  easy-in duration-300 border border-[1px] border-primary text-primary hover:text-white ml-[30px]' >Back to Login</button>
+        </Link>
         </div>
         </div>
         {/* Password part end */}
@@ -103,3 +110,5 @@ const Registration = () => {
 }
 
 export default Registration
+
+
