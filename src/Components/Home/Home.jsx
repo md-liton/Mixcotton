@@ -16,10 +16,21 @@ const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0); 
   }, [pathname]);
+
+
+  useEffect(()=>{
+    window.addEventListener("scroll",function(){
+        var header = document.querySelector('.header')
+        header.classList.toggle('sticky' , window.scrollY > 150)
+    })
+
+},[])
   return (
     <>
+    <div className='header top-0 left-0 w-full z-[999] bg-white'>
       <Navbar />
       <Header />
+    </div>
       {
         location.pathname == '/' &&
           <div>
