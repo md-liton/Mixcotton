@@ -21,13 +21,13 @@ const Home = () => {
   useEffect(()=>{
     window.addEventListener("scroll",function(){
         var header = document.querySelector('.header')
-        header.classList.toggle('sticky' , window.scrollY > 150)
+        header.classList.toggle('sticky' , window.scrollY > 180)
     })
 
 },[])
   return (
     <>
-    <div className='header top-0 left-0 w-full z-[999] bg-white'>
+    <div className='header top-0 left-0 w-full z-[999] bg-white shadow-lg  shadow-slate-400 duration-300'>
       <Navbar />
       <Header />
     </div>

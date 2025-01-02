@@ -17,7 +17,7 @@ const Banner = () => {
   return (
       <section >
           <div className="banner_main overflow-hidden">
-              <Slider {...settings}>
+              <Slider {...settings} className='mx-[-20px]'>
                   <div>
                       <img src={banner} alt="img" className='w-full' />
                   </div>
