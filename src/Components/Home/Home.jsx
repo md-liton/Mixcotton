@@ -35,11 +35,7 @@ const Home = () => {
   return (
     <>
       {/* Sticky Navbar */}
-      <div
-        className={`header ${
-          isSticky ? 'sticky' : 'hidden'
-        }`}
-      >
+      <div className={`header ${ isSticky ? 'sticky' : 'hidden' }`}>
         <ScrollNavbar />
       </div>
 
