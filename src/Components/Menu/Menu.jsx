@@ -23,7 +23,7 @@ const Menu = () => {
             </div>
           </Link>
           {isDropdownVisible && (
-            <div className="shop_item absolute text-white text-[14px] bg-[#F5F5F3] top-[20px] w-[500px] left-[-220px] rounded-lg duration-400 z-[99] flex justify-between text-center py-[20px]">
+            <div className="shop_item absolute text-white text-[14px] bg-[#F5F5F3] top-[20px] w-[500px] left-[-180px] rounded-lg duration-400 z-[99] flex justify-between text-center py-[20px]">
               <div className="md:w-1/3">
                 <ul className="p-[20px]">
                   <li className="py-[5px] text-[18px] text-primary font-bold duration-300">
