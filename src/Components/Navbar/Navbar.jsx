@@ -38,14 +38,17 @@ const Navbar = () => {
           </div>
           <div className="menu md:w-[80%]">
             <div className='hidden md:block'>
-            <Menu />
+              <Menu />
             </div>
-            <div>
-            <IoMdMenu className={`text-[25px] ${menu ? 'hidden' : 'block'}`} onClick={()=>setMenu(!menu)}/>
-            <IoMdClose className={`text-[25px] ${!menu ? 'hidden' : 'block'}`} onClick={()=>setMenu(!menu)}/>
+            <div className='md:hidden'>
+              <IoMdMenu className={`text-[25px] ${menu ? 'hidden' : 'block'}`} onClick={() => setMenu(!menu)} />
+              <IoMdClose className={`text-[25px] ${!menu ? 'hidden' : 'block'}`} onClick={() => setMenu(!menu)} />
             </div>
           </div>
         </div>
+      </div>
+      <div className={`h-[500px] w-3/4 bg-red-500 absolute top-0 left-0 z-[999] ease-in duration-300 ${!menu ? 'opacity-0 invisible w-[0px]' : 'opacity-100 visible'}`}>
+        <p>mdliton</p>
       </div>
     </nav>
   )

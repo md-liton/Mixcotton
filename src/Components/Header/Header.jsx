@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className='bg-[#F5F5F3] py-[25px]'>
         <div className="container">
-            <div className="header_main md:flex md:justify-between md:items-center">
+            <div className="header_main flex justify-between items-center">
                 <Link to='/products' className='md:w-[20%] flex items-center gap-[10px] md:text-[18px] font-dm text-primary cursor-pointer '>
                 <HiOutlineMenuAlt2 />
                 <p>Shop by Category</p>
