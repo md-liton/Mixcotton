@@ -28,7 +28,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='py-[25px]'>
+    <nav className='md:py-[25px] py-[18px] '>
       <div className="container">
         <div className="nav_main flex justify-between md:justify-center items-center">
           <div className="logo md:w-[20%]">
@@ -47,8 +47,31 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={`h-[500px] w-3/4 bg-red-500 absolute top-0 left-0 z-[999] ease-in duration-300 ${!menu ? 'opacity-0 invisible w-[0px]' : 'opacity-100 visible'}`}>
-        <p>mdliton</p>
+      <div className={`h-[500px] w-3/4 bg-[#F5F5F3] absolute top-0 left-0 z-[999] ease-in duration-300 px-[10px] py-[25px] ${!menu ? 'opacity-0 invisible w-[0px]' : 'opacity-100 visible'}`}>
+        <ul className="md:text-[18px] font-dm md:flex md:justify-center md:items-center gap-[30px]">
+                <li>
+                  <Link to="/" className={` ${location.pathname === '/' ? 'text-primary' : 'text-secondary'} hover:text-primary font-bold duration-300 cursor-pointer`}>
+                    Home
+                  </Link>
+                </li>
+                <li className="" >
+                  <Link  to="" className={`shop ${  location.pathname === '/shop' ? 'text-primary' : 'text-secondary' } hover:text-primary font-bold duration-300 cursor-pointer`} >
+                    <div className="flex items-center">
+                      Shop <IoIosArrowDown />
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about" className={` ${ location.pathname === '/about' ? 'text-primary' : 'text-secondary' } hover:text-primary font-bold duration-300 cursor-pointer`} >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contacts" className={` ${ location.pathname === '/contacts' ? 'text-primary' : 'text-secondary' } hover:text-primary font-bold duration-300 cursor-pointer`} >
+                    Contacts
+                  </Link>
+                </li>
+              </ul>
       </div>
     </nav>
   )

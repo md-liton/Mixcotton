@@ -23,7 +23,7 @@ const ScrollNavbar = () => {
 
   }, [])
   return (
-    <nav className='py-[25px] bg-[#F5F5F3]'>
+    <nav className='py-[25px] bg-[#F5F5F3] hidden md:block'>
       <div className="container">
         <div className="scroll_nav_main md:flex md:justify-center md:items-center">
           <div className="logo md:w-[20%]">

@@ -11,18 +11,18 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className='bg-[#F5F5F3] py-[25px]'>
+    <header className='bg-[#F5F5F3] md:py-[25px] py-[14px]'>
         <div className="container">
             <div className="header_main flex justify-between items-center">
                 <Link to='/products' className='md:w-[20%] flex items-center gap-[10px] md:text-[18px] font-dm text-primary cursor-pointer '>
-                <HiOutlineMenuAlt2 />
-                <p>Shop by Category</p>
+                <HiOutlineMenuAlt2  className='text-[25px]'/>
+                <p className='hidden md:block'>Shop by Category</p>
                 </Link>
-                <div className='md:w-[60%] md:flex md:justify-center md:items-center relative'>
-                    <input type="search" placeholder='Search Product' className='p-[10px] rounded-lg md:w-[80%] focus:outline-none' />
-                    <FaSearch className='absolute top-[15px] right-[12%] cursor-pointer'/>
+                <div className='w-[90%] md:w-[60%] md:flex md:justify-center md:items-center gap-[20px] md:gap-0 relative'>
+                    <input type="search" placeholder='Search Product' className='p-[10px] rounded-lg w-full  md:w-[80%] focus:outline-none' />
+                    <FaSearch className='absolute top-[15px] right-[8px] md:right-[12%] cursor-pointer'/>
                 </div>
-                <div className='md:w-[20%] flex justify-end items-center gap-[30px]'>                    
+                <div className='md:w-[20%] flex justify-end items-center gap-[30px] hidden md:block'>                    
                 <Link to='/login'>
                 <div className='flex justify-center items-center gap-[5px] cursor-pointer'>
                 <IoMdContact  className='text-[30px]'/>
