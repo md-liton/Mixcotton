@@ -11,8 +11,8 @@ const Footer = () => {
     <section className='py-[30px] font-dm bg-[#F5F5F3]'>
         <div className="container">
             <div className="footer_main">
-                <div className='flex gap-[60px]'>
-                    <div className='w-1/2 flex justify-between items-center'>
+                <div className='md:flex md:gap-[60px]'>
+                    <div className='md:w-1/2 flex justify-between items-center'>
                     <div>
                         <h5 className='font-bold text-[16px] text-primary'>MENU</h5>
                         <ul className='text-[#6D6D6D] text-[14px] '>
@@ -44,7 +44,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     </div>
-                    <div className='w-1/2 flex justify-between'>
+                    <div className='md:w-1/2 flex justify-between'>
                     <div>
                         <h5 className='font-bold text-[16px] text-primary'>(052) 611-5711</h5>
                         <h5 className='font-bold text-[16px] text-primary'>company@domain.com</h5>
