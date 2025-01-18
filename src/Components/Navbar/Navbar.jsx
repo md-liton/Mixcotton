@@ -28,7 +28,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='md:py-[25px] py-[15px] '>
+    <nav className='md:py-[25px] py-[15px] fixed md:static top-0 left-0 w-full bg-white z-[999]'>
       <div className="container">
         <div className="nav_main flex justify-between md:justify-center items-center">
           <div className="logo md:w-[20%]">

@@ -44,7 +44,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     </div>
-                    <div className='md:w-1/2 flex justify-between'>
+                    <div className='md:w-1/2 flex justify-between mt-[15px] md:mt-0'>
                     <div>
                         <h5 className='font-bold text-[16px] text-primary'>(052) 611-5711</h5>
                         <h5 className='font-bold text-[16px] text-primary'>company@domain.com</h5>
@@ -55,17 +55,17 @@ const Footer = () => {
                     </div>
                     </div>
                 </div>
-                <div className='flex justify-between pt-[40px]'>
-                    <div className='w-1/2'>
-                          <div className='flex items-center gap-[20px] text-[20px]'>
+                <div className='md:flex justify-between pt-[40px]'>
+                    <div className='md:w-1/2'>
+                          <div className='flex justify-center md:justify-start items-center gap-[20px] text-[20px]'>
                               <FaFacebook className='cursor-pointer'/>
                               <FaLinkedin className='cursor-pointer'/>
                               <FaInstagramSquare className='cursor-pointer' />
                               <AiFillTikTok  className='cursor-pointer'/>
                           </div>
                     </div>
-                    <div className='w-1/2'>
-                    <p className=' py-[5px] text-[#6D6D6D] text-[14px] text-end' >2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+                    <div className='md:w-1/2'>
+                    <p className=' py-[5px] text-[#6D6D6D] text-[14px] text-center md:text-end mt-[15px] md:mt-0' >2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
                     </div>
                 </div>
             </div>

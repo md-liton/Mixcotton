@@ -42,7 +42,9 @@ const Home = () => {
 
       {/* Main Content */}
       <Navbar />
+      <div className='mt-[55px] md:mt-0'>
       <Header />
+      </div>
       {pathname === '/' && (
         <div>
           <Banner />

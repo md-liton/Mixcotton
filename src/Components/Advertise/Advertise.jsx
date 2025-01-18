@@ -6,13 +6,13 @@ import ad3 from '../../assets/Ad3.png'
 const Advertise = () => {
   
   return (
-    <section className='py-[80px]'>
+    <section className='md:py-[80px] py-[30px]'>
         <div className="container">
-            <div className="ad_main flex justify-between gap-[30px]">
-                <div className='w-1/2'>
+            <div className="ad_main md:flex justify-between gap-[30px]">
+                <div className='md:w-1/2'>
                 <img src={ad1} alt="img" className='w-full'/>
                 </div>
-                <div className='w-1/2'>
+                <div className='md:w-1/2 mt-[25px] md:mt-0'>
                 <div>
                     <img src={ad2} alt="img"  className='w-full'/>
                 </div>
